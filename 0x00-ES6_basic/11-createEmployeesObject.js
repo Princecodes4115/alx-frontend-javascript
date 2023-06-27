@@ -1,3 +1,4 @@
- function createEmployeesObject(departmentName, employees) {
+function createEmployeesObject(departmentName, employees) {
   return { [departmentName]: [...employees] };
 }
+createEmployeesObject();
